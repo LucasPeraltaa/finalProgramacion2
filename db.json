@@ -1,0 +1,32 @@
+{
+  "alumnos": [
+    {
+      "dni": "37656979",
+      "nombre": "octavio balverdi",
+      "direccion": "Las heras 1436",
+      "id": 1
+    },
+    {
+      "dni": "41495011",
+      "nombre": "Lucas Peralta",
+      "direccion": "Lomas de Tafi",
+      "id": 2
+    }
+  ],
+  "libros": [
+    {
+      "titulo": "Harry Potter 2",
+      "autor": "JK Rowling",
+      "id": 1
+    }
+  ],
+  "prestamos": [
+    {
+      "idAlu": "1",
+      "idLibro": 1,
+      "fechaEnt": "2023-03-16",
+      "fechaDev": "2023-03-24",
+      "id": 1
+    }
+  ]
+}
