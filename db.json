@@ -2,8 +2,8 @@
   "alumnos": [
     {
       "dni": "37656979",
-      "nombre": "octavio balverdi",
-      "direccion": "Las heras 1436",
+      "nombre": "Paula Peralta",
+      "direccion": "Yerba Buena",
       "id": 1
     },
     {
@@ -17,6 +17,12 @@
       "direccion": "B Kennedy",
       "dni": "39456023",
       "id": 3
+    },
+    {
+      "nombre": "Andrea Sanchez",
+      "direccion": "Barrio Las Americas",
+      "dni": "22530371",
+      "id": 4
     }
   ],
   "libros": [
@@ -24,15 +30,22 @@
       "titulo": "Harry Potter 2",
       "autor": "JK Rowling",
       "id": 1
+    },
+    {
+      "titulo": "Cinco semanas en globo",
+      "autor": "Julio Verne",
+      "id": 2
+    },
+    {
+      "titulo": "El Resplandor",
+      "autor": "Stephen King",
+      "id": 3
+    },
+    {
+      "titulo": "100 años de soledad",
+      "autor": "Gabriel Garcia Marquez",
+      "id": 4
     }
   ],
-  "prestamos": [
-    {
-      "idAlu": "1",
-      "idLibro": 1,
-      "fechaEnt": "2023-03-16",
-      "fechaDev": "2023-03-24",
-      "id": 1
-    }
-  ]
+  "prestamos": []
 }

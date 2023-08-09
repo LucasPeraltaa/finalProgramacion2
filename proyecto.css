@@ -30,10 +30,7 @@ input, button{
     font-size: 20px;
     border: none;
     border-radius: 10px;
-    
 }
-
-
 
 #ingresar{
     cursor: pointer;
@@ -67,26 +64,17 @@ label{
     color: white;
 }
 
-
-
-/* --------------------------------------------------------------------------------------- */
 /* Estilo del Menu */
 
 body{
-    /*background: #080503;
-    background: -webkit-linear-gradient(to right, #3d2005, #522203);
-    background: linear-gradient(to right, #070604, #ca6507);*/
     background-color: ghostwhite;
     background-size: 100% 100%;
     background-attachment: fixed;
-    
 }
 
 
 .container{
     background: rgb(255, 225, 225,0.1);
-   /*  background: -webkit-linear-gradient(to right, #634713, #d88e39);
-    background: linear-gradient(to right, #b36710, #f1860c);*/
     backdrop-filter: blur(20px);
     margin-top: 10px;
     border-radius: 10px;
@@ -100,14 +88,14 @@ body{
 }
 
 #cuspide{
-height: 300px;
-width: 370px;
-margin-top: 10px;
+    height: 300px;
+    width: 370px;
+    margin-top: 10px;
 }
 #cuspide-banner{
-width: 790px;
-height: 300px;
-margin-top: 10px;
+    width: 790px;
+    height: 300px;
+    margin-top: 10px;
 }
 
 #lista{
@@ -116,11 +104,9 @@ margin-top: 10px;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 5px;
-    background-color: #ec83c4;
+    background-color: #4bdf49;
     opacity: 0.5;
     border-radius: 10px;
-   
-
 }
 
 #lista li{
@@ -131,24 +117,20 @@ margin-top: 10px;
     margin-inline: 10px;
     color: white;
     border-radius: 10px;
-    
 }
 
 #lista li:hover{
     background: #a8d8f8;
     transition: 0.3s;
     transform: rotate(5deg);
-    border-radius: 10px;
-    
-    
+    border-radius: 10px;  
 }
 
 
 .alumnos, .libros, .prestamos{
-    border: solid rgb(255, 255, 255) 6px;
+    border: solid #4bdf49 6px;
     margin-top: 5px;
     border-radius: 20px;
-
 }
 .alu{
     margin-top: 10px;
@@ -158,7 +140,7 @@ margin-top: 10px;
 .lib{
     margin-top: 10px;
     margin-left: 230px;
-    
+
 }
 .pres{
     margin-top: 10px;
@@ -179,8 +161,4 @@ margin-top: 10px;
     border-radius: 10px;
     opacity: 0.7;
     backdrop-filter: blur(20px);
-
 }
-
-
-/* ----------------------------------------------------------------------------------------*/

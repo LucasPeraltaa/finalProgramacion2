@@ -1,4 +1,9 @@
+//                  CONSIGNA FINAL PROG2
+//     Llevar un programa en JAVASCRIPT con acceso a API
+//  que tenga un CRUD manejando al menos 2 entidades (tablas)
+
 //CRUD de Libros
+
 const titulo = document.getElementById("LibTi")
 const autor = document.getElementById("LibAu")
 
@@ -34,8 +39,8 @@ async function listar() {
     listado.innerHTML = ""
     resp.data.forEach(element => {
         listado.innerHTML +=" El Id: "+ element.id + " -- " + " Titulo: " +
-        element.titulo + " -- " + " Autor: " + element.autor +' '+ '<button onclick="borrar(' + element.id +')"><img src="./img/borrar-para-siempre.gif" alt="" style="height: 20px; width: 20px;"></button>' +
-        '<button onclick="mostrar(' + element.id +')"><img src="./img/diagrama.gif" alt="" style="height: 20px; width: 20px; "></button>'+
+        element.titulo + " -- " + " Autor: " + element.autor +' '+ '<button onclick="borrar(' + element.id +')"><img src="./img/delete.png" alt="" style="height: 20px; width: 20px;"></button>' +
+        '<button onclick="mostrar(' + element.id +')"><img src="./img/refresh.png" alt="" style="height: 20px; width: 20px; "></button>'+
         "<br>";
     });
 }
@@ -116,8 +121,6 @@ async function guardar2(){
             nombre.value=""
             direccion.value=""
             dni.value=""
-
-
         }
         else
         {
@@ -127,17 +130,9 @@ async function guardar2(){
             nombre.value=""
             direccion.value=""
             dni.value=""
-
-
         }
-
-    }
-         
-    catch(error){
-
-        
-        
-    }
+    }    
+    catch(error){ console.log(error) }
     listar2()
 }
 
@@ -147,8 +142,10 @@ async function listar2() {
     resp2.data.forEach(element2 => {
         listado2.innerHTML += 
          " El Id: " + element2.id + " -- " + " Dni: " +
-        element2.dni + " -- " + " Nombre: " + element2.nombre + " -- " + " Direccion: " + element2.direccion +' '+'<button onclick="borrar2(' + element2.id +')"><img src="./img/borrar-para-siempre.gif" alt="" style="height: 20px; width: 20px;"></button>' +
-        '<button onclick="mostrar2(' + element2.id +')"><img src="./img/diagrama.gif" alt="" style="height: 20px; width: 20px;"></button>'+
+        element2.dni + " -- " + " Nombre: " + element2.nombre + " -- " + 
+        " Direccion: " + element2.direccion +' '+'<button onclick="borrar2(' + element2.id 
+        +')"><img src="./img/delete.png" alt="" style="height: 20px; width: 20px;"></button>' +
+        '<button onclick="mostrar2(' + element2.id +')"><img src="./img/refresh.png" alt="" style="height: 20px; width: 20px;"></button>'+
         "<br>";
     });
 }
@@ -252,8 +249,8 @@ async function listar3() {
           " Fecha de Entrega: " + element3.fechaEnt + " -- " + " Fecha de Devolucion: " + 
           element3.fechaDev + " -- " + " Titulo del Libro: " + resp.data.titulo + " -- " + 
           " Nombre del Alumno: " + resp2.data.nombre +'<button onclick="borrar3(' + 
-          element3.id +')"><img src="./img/borrar-para-siempre.gif" alt="" style="height: 20px; width: 20px;"></button>' +
-          '<button onclick="mostrar3(' + element3.id +')"><img src="./img/diagrama.gif" alt="" style="height: 20px; width: 20px; "></button>'+
+          element3.id +')"><img src="./img/delete.png" alt="" style="height: 20px; width: 20px;"></button>' +
+          '<button onclick="mostrar3(' + element3.id +')"><img src="./img/refresh.png" alt="" style="height: 20px; width: 20px; "></button>'+
         "<br>";
     });
 }
