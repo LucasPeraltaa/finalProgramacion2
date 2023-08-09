@@ -11,6 +11,12 @@
       "nombre": "Lucas Peralta",
       "direccion": "Lomas de Tafi",
       "id": 2
+    },
+    {
+      "nombre": "Facundo",
+      "direccion": "B Kennedy",
+      "dni": "39456023",
+      "id": 3
     }
   ],
   "libros": [
